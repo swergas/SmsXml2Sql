@@ -1,0 +1,13 @@
+
+About
+=====
+
+SmsXml2Sql converts XML files produced by the "SMS Backup & Restore" Android application to SQL entries.
+
+Usage
+=====
+
+- Create the database structure by importing the db_schema.sql file.
+- Replace the username, the password and the database name by yours in the sms_import.sh file.
+- From a terminal, run sms_import.sh with your XML files as arguments.
+
